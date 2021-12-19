@@ -3,66 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="asset/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="asset/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="asset/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/css/fontawsome.css">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/responsive.css">
     <link rel="stylesheet" href="./css/cart.css">
-    <title>Check out page</title>
-</head>
-<body>
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/cart.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- this is for mordanizar js link -->
+    <script src="asset/js/vendor/modernizr-3.6.0.min.js"></script>
     
     <title>Document</title>
     </head>
-    
-    <body>
-    
-        <div class="navigation">
-            <div class="logo">
-    
+    <title>Check out page</title>
+</head>
+<body>
+      
+      
+      <body>
+      
+        <!-- start header top area  -->
+        <header id="header__top">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-xl-4 col-lg-3 col-md-3 col-sm-6 col-7">
+                <div class="logo__box">
+                  <a href="index.html">
+      
+      
+                    <h4 class="logo__dummy">Rainydays</h4>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xl-8 col-lg-9 col-md-9 col-sm-6 col-5">
+                <div class="header__right__content hide__mobile">
+                  <div class="nav__box text-right">
+                    <ul>
+                      <li><a href="/index.html">Home</a></li>
+                      <li><a href="/about.html">About</a></li>
+                      <li><a href="/shop.html">Shop</a></li>
+                      <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                  </div>
+                  <div class="cart__link">
+                    <a href="/cart.html">
+                      <i class="fal fa-cart-plus"></i> Cart
+                    </a>
+                  </div>
+                </div>
+                <div class="header__toggle_menu text-end">
+                  <button type="button">
+                    <i class="fal fa-bars"></i>
+                  </button>
+                </div>
+              </div>
             </div>
-            <ul class="nav-list">
-                <li><a href="./index.html">home</a></li>
-                <li><a href="./about.html">about</a></li>
-                <li><a href="./shop.html">shop</a></li>
-                <li><a href="./contact.html">contact</a></li>
-                <li><a href="./cart.html"><span>cart</span></a></li>
+          </div>
+        </header>
+        <!-- end header top area  -->
+      
+      
+        <!-- mobile toggle menu -->
+        <div id="mobile__toggle__menu">
+          <div class="mobile__toggle__close">
+            <button type="button">
+              <i class="fal fa-times"></i>
+            </button>
+          </div>
+          <div class="mobile__menu__nav">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Contact</a></li>
             </ul>
-    
+          </div>
+          <div class="add__cart__mobile__menu">
+            <a href="#">
+              <i class="fal fa-cart-plus"></i> View Cart
+            </a>
+          </div>
         </div>
+        <!-- end mobile toggle menu -->
+        
     
     
     
     
     
     
-        <!-- <div class=" shopping-cart">
-            <table>
-                <tr>
-                    <th>Product</th>
-                    <th>Quantity</th>
-                    <th>Subtotal</th>
-                </tr>
-    
-                <tr>
-                    <td>
-                        <div class="cart-info">
-                            <img src="./images/img/man-g5f2933b11_1920.jpg" alt="">
-                            <div>
-                                <p>red sports winter jacket </p>
-                                <small>price: 500kr</small>
-                                <br>
-                                <a href="#">Remove</a>
-                            </div>
-                        </div>
-                    </td>
-                    <td><input type="number" value="1"></td>
-                    <td>70 kr</td>
-                </tr>
-            </table>
-        </div>
-     -->
+        
      
      <div class="cart-body">
         <h2>Shopping Cart</h2>
