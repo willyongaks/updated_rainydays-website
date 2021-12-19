@@ -1,3 +1,7 @@
+
+
+
+
 /*shopping cart*/
 
 .shopping-cart{
@@ -11,10 +15,9 @@ table{
 
 }
 
-
 .cart-body{
    padding: 60px 25px;
-   height: 90vh;
+   height: 70vh;
 }
 .cart-body h2 {
   font-family: 'Poppins', sans-serif;
@@ -71,7 +74,8 @@ table{
   zoom: 1;
 }
 
-
+/* Apply clearfix in a few places */
+/* Apply dollar signs */
 .product .product-price:before, .product .product-line-price:before, .totals-value:before {
   content: '$';
 }
@@ -163,7 +167,7 @@ label {
   border: 0;
   margin-top: 20px;
   padding: 12px 45px;
-  background-color: #0A3641;
+  background-color: #941319;
   color: #fff;
   font-size: 22px;
   border-radius: 3px;
@@ -172,7 +176,7 @@ label {
 }
 
 .checkout:hover {
-  background-color: #941319;
+  background-color: #000000;
 }
 
 /* Make adjustments for tablet */

@@ -1,0 +1,98 @@
+
+
+/*hero section*/
+
+.hero-section{
+    width: 100%;
+}
+
+.hero-section img{
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    object-fit: cover;
+}
+
+/*form area*/
+
+.form-fill{
+    display: grid;
+    justify-content: center;
+}
+.container{
+    justify-content: center;
+    align-content: center;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.details{
+    padding: 2em;
+    text-align: center;
+    font-family: 'Poppins', sans-serif; 
+
+}
+
+.details h2{
+    text-transform: capitalize;
+}
+
+label,input,value{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+input[type=text], textarea{
+    width: 100%;
+    padding: 1.5em;
+    margin-top: 6px;
+    margin-bottom: 1em;
+    resize: vertical;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[type=submit]{
+    padding: 20px;
+    color: white;
+    background-color: #c00d16;
+    width: 100%;
+    margin-top: 30px;
+}
+
+input[type=submit]:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+/* contact-form */
+
+label.error {
+    color: red;
+    font-size: 12px;
+    display: contents;
+    margin-top: -15px;
+}
+
+form.contact-form {
+    max-width: 768px;
+    width: 100%;
+    display: block;
+    width: 768px;
+    padding: 0 15px;
+}
+
+form.contact-form label {
+    width: 100%;
+    display: block;
+}
+@media only screen and (max-width: 767px) {
+form.contact-form {
+    width: auto;
+}
+.form .container {
+    width: 100%;
+    margin: 0;
+}
+}

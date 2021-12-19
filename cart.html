@@ -1,378 +1,311 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" href="asset/img/favicons/apple-touch-icon.png" sizes="180x180">
-    <link rel="icon" href="asset/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="asset/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
-    <link rel="stylesheet" href="asset/css/fontawsome.css">
-    <link rel="stylesheet" href="asset/css/style.css">
-    <link rel="stylesheet" href="asset/css/responsive.css">
-    <link rel="stylesheet" href="/asset/css/cart.css">
-    <!-- this is for mordanizar js link -->
-    <script src="asset/js/vendor/modernizr-3.6.0.min.js"></script>
-    
-    <title>Document</title>
-    </head>
-    <title>Check out page</title>
+  <meta charset="utf-8">
+  <title>Bootstrap 5 boilarplate</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" href="asset/img/favicons/apple-touch-icon.png" sizes="180x180">
+  <link rel="icon" href="asset/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="asset/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+  <link rel="stylesheet" href="asset/css/fontawsome.css">
+  <link rel="stylesheet" href="asset/css/style.css">
+  <link rel="stylesheet" href="asset/css/responsive.css">
+  <link rel="stylesheet" href="/cart.css">
+  <!-- this is for mordanizar js link -->
+  <script src="asset/js/vendor/modernizr-3.6.0.min.js"></script>
 </head>
+
 <body>
-      
-      
-      <body>
-      
-        <!-- start header top area  -->
-        <header id="header__top">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-xl-4 col-lg-3 col-md-3 col-sm-6 col-7">
-                <div class="logo__box">
-                  <a href="index.html">
-      
-      
-                    <h4 class="logo__dummy">Rainydays</h4>
-                  </a>
-                </div>
-              </div>
-              <div class="col-xl-8 col-lg-9 col-md-9 col-sm-6 col-5">
-                <div class="header__right__content hide__mobile">
-                  <div class="nav__box text-right">
-                    <ul>
-                      <li><a href="/index.html">Home</a></li>
-                      <li><a href="/about.html">About</a></li>
-                      <li><a href="/shop.html">Shop</a></li>
-                      <li><a href="/contact.html">Contact</a></li>
-                    </ul>
-                  </div>
-                  <div class="cart__link">
-                    <a href="/cart.html">
-                      <i class="fal fa-cart-plus"></i> Cart
-                    </a>
-                  </div>
-                </div>
-                <div class="header__toggle_menu text-end">
-                  <button type="button">
-                    <i class="fal fa-bars"></i>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
-        <!-- end header top area  -->
-      
-      
-        <!-- mobile toggle menu -->
-        <div id="mobile__toggle__menu">
-          <div class="mobile__toggle__close">
-            <button type="button">
-              <i class="fal fa-times"></i>
-            </button>
-          </div>
-          <div class="mobile__menu__nav">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Shop</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-          <div class="add__cart__mobile__menu">
-            <a href="#">
-              <i class="fal fa-cart-plus"></i> View Cart
+  <!-- start header top area  -->
+  <header id="header__top">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-xl-4 col-lg-3 col-md-3 col-sm-6 col-7">
+          <div class="logo__box">
+            <a href="index.html">
+
+
+              <h4 class="logo__dummy">Rainydays</h4>
             </a>
           </div>
         </div>
-        <!-- end mobile toggle menu -->
-        
-    
-    
-    
-    
-    
-    
-        
-     
-     <div class="cart-body">
-        <h2>Shopping Cart</h2>
-
-        <div class="shopping-cart">
-    
-          <div class="column-labels">
-              <label class="product-image">Image</label>
-              <label class="product-details">Product</label>
-              <label class="product-price">Price</label>
-              <label class="product-quantity">Quantity</label>
-              <label class="product-removal">Remove</label>
-              <label class="product-line-price">Total</label>
-          </div>
-      
-          
-    
-        </div>
-        <div>
-          <div class="totals">
-            <div class="totals-item">
-            <label>Subtotal</label>
-            <div class="totals-value" id="cart-subtotal">71.97</div>
+        <div class="col-xl-8 col-lg-9 col-md-9 col-sm-6 col-5">
+          <div class="header__right__content hide__mobile">
+            <div class="nav__box text-right">
+              <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/shop.html">Shop</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+              </ul>
             </div>
-            <div class="totals-item">
-            <label>Tax (5%)</label>
-            <div class="totals-value" id="cart-tax">3.60</div>
-            </div>
-            <div class="totals-item">
-            <label>Shipping</label>
-            <div class="totals-value" id="cart-shipping">15.00</div>
-            </div>
-            <div class="totals-item totals-item-total">
-            <label>Grand Total</label>
-            <div class="totals-value" id="cart-total">90.57</div>
-            </div>
-        </div>
-          
-        <button type="submit" class="checkout">Checkout</button>
-        </div>
-     </div>
-
-
-
-    <!-- footer top area  -->
-    <section id="footer__top">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="footer__logo text-center">
-              <a href="index.html">
-                <img class="img-fluid" src="asset/img/logo.png" alt="">
+            <div class="cart__link">
+              <a href="/cart.html">
+                <i class="fal fa-cart-plus"></i> Cart
               </a>
             </div>
           </div>
-          <div class="footer__contact">
-            <div class="row">
-              <div class="col-xl-4 col-lg-4">
-                <div class="contact__item text-center">
-                  <a href="#">
-                    <i class="fal fa-envelope"></i>
-                    <h4>williamongaki10@gmail.com</h4>
-                  </a>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4">
-                <div class="contact__item text-center">
-                  <a href="#">
-                    <i class="fal fa-map-marker-alt"></i>
-                    <h4>OSLO , NORWAY</h4>
-                  </a>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-4">
-                <div class="contact__item text-center">
-                  <a href="#">
-                    <i class="fal fa-phone-volume"></i>
-                    <h4>+47 411 79 860</h4>
-                  </a>
-                </div>
-              </div>
-            </div>
+          <div class="header__toggle_menu text-end">
+            <button type="button">
+              <i class="fal fa-bars"></i>
+            </button>
           </div>
         </div>
       </div>
-    </section>
-    <!-- end footer top area  -->
+    </div>
+  </header>
+  <!-- end header top area  -->
 
-      <!-- main footer area  -->
-      <footer id="main__footer__area">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="footer__copyright text-center">
-                <p>WILLIAMONGAKI @ 2021</p>
-              </div>
-            </div>
+  <!-- mobile toggle menu -->
+  <div id="mobile__toggle__menu">
+    <div class="mobile__toggle__close">
+      <button type="button">
+        <i class="fal fa-times"></i>
+      </button>
+    </div>
+    <div class="mobile__menu__nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="add__cart__mobile__menu">
+      <a href="#">
+        <i class="fal fa-cart-plus"></i> View Cart
+      </a>
+    </div>
+  </div>
+  <!-- end mobile toggle menu -->
+
+
+
+  <div class="cart-body">
+    <h2>Shopping Cart</h2>
+  
+    <div class="shopping-cart">
+  
+      <div class="column-labels">
+        <label class="product-image">Image</label>
+        <label class="product-details">Product</label>
+        <label class="product-price">Price</label>
+        <label class="product-quantity">Quantity</label>
+        <label class="product-removal">Remove</label>
+        <label class="product-line-price">Total</label>
+      </div>
+
+      </div>
+      <div>
+        <div class="totals">
+          <div class="totals-item">
+            <label>Subtotal</label>
+            <div class="totals-value" id="cart-subtotal">71.97</div>
+          </div>
+          <div class="totals-item">
+            <label>Tax (5%)</label>
+            <div class="totals-value" id="cart-tax">3.60</div>
+          </div>
+          <div class="totals-item">
+            <label>Shipping</label>
+            <div class="totals-value" id="cart-shipping">15.00</div>
+          </div>
+          <div class="totals-item totals-item-total">
+            <label>Grand Total</label>
+            <div class="totals-value" id="cart-total">90.57</div>
           </div>
         </div>
-      </footer>
-      <!-- end main footer area  -->
-      
-      <!-- all javascript load here -->
-      <script src="asset/js/vendor/jquery-3.3.1.min.js"></script>
-      <script src="asset/js/bootstrap.bundle.min.js"></script>
-      <script src="asset/js/custom.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
-<script>
-    
-var taxRate = 0.05;
-var shippingRate = 15.00; 
-var fadeTime = 300;
+
+        <button type="submit" class="checkout">Checkout</button>
+        </div>
+      </div>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
 
 
-$(async function() {
-  getCartData()
-})
-
-function getCartData() {
-  $(".product").remove();
-  const localCart = localStorage.getItem("cart")
-  const cartItems = JSON.parse(localCart);
-  console.log({ cartItems });
-
-  if(cartItems && cartItems.length > 0) {
-    for (const item of cartItems) {
-      console.log({ item });
-      const product = `<div class="product">
-                <div class="product-image">
-                <img src="${item.image}">
-                </div>
-                <div class="product-details">
-                <div class="product-title">${item.name}</div>
-                </div>
-                <div class="product-price">${item.price} kr</div>
-                <div class="product-quantity">
-                <input id="${item.id}" type="number" value="${item.quantity}" min="1">
-                </div>
-                <div class="product-removal">
-                <button type="button" id="${item.id}" class="remove-product">
-                    Remove
-                </button>
-                </div>
-                <div class="product-line-price">${item.total} kr</div>
-            </div>`
-      $(".shopping-cart").append(product);
-    }
-    recalculateCart();
-  }
-}
-$(function() {
-  $('body').on('change', '.product-quantity input', function(){
-    var value = $(this).val();
-    var id = this.id;
-    changeQty(id, value);
-  })
-  // $('.product-quantity input').change( function() {
-    
-  // });
-})
-
-$(function() {
-  $('body').on('click', '.remove-product', function() {
-    var id = parseInt(this.id);
-    const cartString = localStorage.getItem("cart")
-  let cartItems = JSON.parse(cartString);
-  
-  const filtered = cartItems.findIndex((item) => item.id === id)
-
-  cartItems.splice(filtered, 1);
-
-  const data = JSON.stringify(cartItems)
-  localStorage.setItem("cart", data)
-  getCartData();
-  })
-})
-
-async function changeQty(productId, value) {
-  console.log({productId});
-  const id = parseInt(productId);
-  const val = parseInt(value)
-  const cartString = localStorage.getItem("cart")
-  let cartItems = await JSON.parse(cartString);
-  cartItems.length > 0 && cartItems.map(item => {
-    if(item.id === id) {
-      item.quantity = val;
-      item.total = item.quantity * item.price;
-      return item;
-    }
-  })
-  console.log({ cartItems })
-  const data = JSON.stringify(cartItems);
-  console.log({ data })
-  localStorage.setItem("cart", data);
-
-  getCartData();
-  // const newData = localStorage.getItem("cart");
-  // console.log({ newData });
-}
-/* Assign actions */
-$('.product-quantity input').change( function() {
-  console.log(this);
-  updateQuantity(this);
-
-});
-
-$('.product-removal button').click( function() {
-  console.log(this);
-  removeItem(this);
-});
 
 
-/* Recalculate cart */
-function recalculateCart()
-{
-  var subtotal = 0;
- console.log({ subtotal }); 
-  /* Sum up row totals */
-  $('.product').each(function () {
-    subtotal += parseFloat($(this).children('.product-line-price').text());
-  });
-  
-  /* Calculate totals */
-  var tax = subtotal * taxRate;
-  var shipping = (subtotal > 0 ? shippingRate : 0);
-  var total = subtotal + tax + shipping;
-  
-  /* Update totals display */
-  $('.totals-value').fadeOut(fadeTime, function() {
-    $('#cart-subtotal').html(subtotal.toFixed(2));
-    $('#cart-tax').html(tax.toFixed(2));
-    $('#cart-shipping').html(shipping.toFixed(2));
-    $('#cart-total').html(total.toFixed(2));
-    if(total == 0){
-      $('.checkout').fadeOut(fadeTime);
-    }else{
-      $('.checkout').fadeIn(fadeTime);
-    }
-    $('.totals-value').fadeIn(fadeTime);
-  });
-}
 
 
-/* Update quantity */
-function updateQuantity(quantityInput)
-{
-  console.log({ quantityInput });
-  /* Calculate line price */
-  // var productRow = $(quantityInput).parent().parent();
-  // var price = parseFloat(productRow.children('.product-price').text());
-  // var quantity = $(quantityInput).val();
-  // var linePrice = price * quantity;
-  
-  // /* Update line price display and recalc cart totals */
-  // productRow.children('.product-line-price').each(function () {
-  //   $(this).fadeOut(fadeTime, function() {
-  //     $(this).text(linePrice.toFixed(2));
-  //     recalculateCart();
-  //     $(this).fadeIn(fadeTime);
-  //   });
-  // });  
-}
 
 
-/* Remove item from cart */
-function removeItem(removeButton)
-{
-  /* Remove row from DOM and recalc cart total */
-  var productRow = $(removeButton).parent().parent();
-  productRow.slideUp(fadeTime, function() {
-    productRow.remove();
-    recalculateCart();
-  });
-}
-</script>
+
+      <script>
+        /* Set rates + misc */
+        var taxRate = 0.05;
+        var shippingRate = 15.00;
+        var fadeTime = 300;
+
+
+        $(async function () {
+          getCartData()
+        })
+
+        function getCartData() {
+          $(".product").remove();
+          const localCart = localStorage.getItem("cart")
+          const cartItems = JSON.parse(localCart);
+          console.log({ cartItems });
+
+          if (cartItems && cartItems.length > 0) {
+            for (const item of cartItems) {
+              console.log({ item });
+              const product = `<div class="product">
+                      <div class="product-image">
+                      <img src="${item.image}">
+                      </div>
+                      <div class="product-details">
+                      <div class="product-title">${item.name}</div>
+                      </div>
+                      <div class="product-price">${item.price} kr</div>
+                      <div class="product-quantity">
+                      <input id="${item.id}" type="number" value="${item.quantity}" min="1">
+                      </div>
+                      <div class="product-removal">
+                      <button type="button" id="${item.id}" class="remove-product">
+                          Remove
+                      </button>
+                      </div>
+                      <div class="product-line-price">${item.total} kr</div>
+                  </div>`
+              $(".shopping-cart").append(product);
+            }
+            recalculateCart();
+          }
+        }
+        $(function () {
+          $('body').on('change', '.product-quantity input', function () {
+            var value = $(this).val();
+            var id = this.id;
+            changeQty(id, value);
+          })
+          // $('.product-quantity input').change( function() {
+
+          // });
+        })
+
+        $(function () {
+          $('body').on('click', '.remove-product', function () {
+            var id = parseInt(this.id);
+            const cartString = localStorage.getItem("cart")
+            let cartItems = JSON.parse(cartString);
+
+            const filtered = cartItems.findIndex((item) => item.id === id)
+
+            cartItems.splice(filtered, 1);
+
+            const data = JSON.stringify(cartItems)
+            localStorage.setItem("cart", data)
+            getCartData();
+          })
+        })
+
+        async function changeQty(productId, value) {
+          console.log({ productId });
+          const id = parseInt(productId);
+          const val = parseInt(value)
+          const cartString = localStorage.getItem("cart")
+          let cartItems = await JSON.parse(cartString);
+          cartItems.length > 0 && cartItems.map(item => {
+            if (item.id === id) {
+              item.quantity = val;
+              item.total = item.quantity * item.price;
+              return item;
+            }
+          })
+          console.log({ cartItems })
+          const data = JSON.stringify(cartItems);
+          console.log({ data })
+          localStorage.setItem("cart", data);
+
+          getCartData();
+          // const newData = localStorage.getItem("cart");
+          // console.log({ newData });
+        }
+        /* Assign actions */
+        $('.product-quantity input').change(function () {
+          console.log(this);
+          updateQuantity(this);
+
+        });
+
+        $('.product-removal button').click(function () {
+          console.log(this);
+          removeItem(this);
+        });
+
+
+        /* Recalculate cart */
+        function recalculateCart() {
+          var subtotal = 0;
+          console.log({ subtotal });
+          /* Sum up row totals */
+          $('.product').each(function () {
+            subtotal += parseFloat($(this).children('.product-line-price').text());
+          });
+
+          /* Calculate totals */
+          var tax = subtotal * taxRate;
+          var shipping = (subtotal > 0 ? shippingRate : 0);
+          var total = subtotal + tax + shipping;
+
+          /* Update totals display */
+          $('.totals-value').fadeOut(fadeTime, function () {
+            $('#cart-subtotal').html(subtotal.toFixed(2));
+            $('#cart-tax').html(tax.toFixed(2));
+            $('#cart-shipping').html(shipping.toFixed(2));
+            $('#cart-total').html(total.toFixed(2));
+            if (total == 0) {
+              $('.checkout').fadeOut(fadeTime);
+            } else {
+              $('.checkout').fadeIn(fadeTime);
+            }
+            $('.totals-value').fadeIn(fadeTime);
+          });
+        }
+
+
+        /* Update quantity */
+        function updateQuantity(quantityInput) {
+          console.log({ quantityInput });
+          /* Calculate line price */
+          // var productRow = $(quantityInput).parent().parent();
+          // var price = parseFloat(productRow.children('.product-price').text());
+          // var quantity = $(quantityInput).val();
+          // var linePrice = price * quantity;
+
+          // /* Update line price display and recalc cart totals */
+          // productRow.children('.product-line-price').each(function () {
+          //   $(this).fadeOut(fadeTime, function() {
+          //     $(this).text(linePrice.toFixed(2));
+          //     recalculateCart();
+          //     $(this).fadeIn(fadeTime);
+          //   });
+          // });  
+        }
+
+
+        /* Remove item from cart */
+        function removeItem(removeButton) {
+          /* Remove row from DOM and recalc cart total */
+          var productRow = $(removeButton).parent().parent();
+          productRow.slideUp(fadeTime, function () {
+            productRow.remove();
+            recalculateCart();
+          });
+        }
+      </script>
 
 </body>
+
 </html>
+
+
+
 
 
