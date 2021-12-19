@@ -1,68 +1,9 @@
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-.navigation{
-  position: relative;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 8vh;
-  font-family: 'Poppins', sans-serif;
-  background-color: #000000;
-  
-  
- 
-  
- 
-  
-}
-.nav-list{
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  padding-left: 10px ;
-  position: absolute;
-  right: 20px;
-
-  
-}
-
-.nav-list a{
-
-  text-align: right;
-  color: rgba(255, 255, 255, 0.815);
-  text-decoration: none;
-  letter-spacing: 2px;
-  font-weight: medium;
-  padding: 5px;
-  text-transform: uppercase;
-
-}
-
-.nav-list a:hover{
-  color: #c00d16;
-}
-
-.nav-list span{
-  background-color: #c00d16;
-  padding: 2px 3px;
-  border-radius: 5px;
-}
-.nav-list span:hover{
-  background-color: black;
-  color: rgba(255, 255, 255, 0.815);
-}
-
-
-
 /*shopping cart*/
 
 .shopping-cart{
   margin: 80px auto;
 }
-/* 
+
 table{
   width: 80%;
   
@@ -70,39 +11,10 @@ table{
 
 }
 
-.cart-info{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-th{
-  text-align: left;
-  padding: 5px;
-  color: #fff;
-  background: #c00d16;
-}
-
-td img{
-  width: 90px;
-  height: 90px;
-  margin-right: 10px;
-  object-fit: cover;
-}
-
-td{
-  padding: 10px 15px;
-}
-
-td input{
-  width: 40px;
-  height: 40px;
-  padding: 5px;
-}
-
-*/
 
 .cart-body{
    padding: 60px 25px;
+   height: 0vh;
 }
 .cart-body h2 {
   font-family: 'Poppins', sans-serif;
@@ -159,8 +71,7 @@ td input{
   zoom: 1;
 }
 
-/* Apply clearfix in a few places */
-/* Apply dollar signs */
+
 .product .product-price:before, .product .product-line-price:before, .totals-value:before {
   content: '$';
 }
