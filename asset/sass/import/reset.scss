@@ -1,0 +1,40 @@
+/*-- this is for webpage restae page desigm --*/
+@import 'color.scss';
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: helveticareqular;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    li{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+}
+a{
+    text-decoration: none;
+    color: $titleColor;
+    transition: 0.4s;
+}
+a:hover{
+    text-decoration: none;
+    color: $titleColor;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    font-family: helveticabold;
+}
+body{
+    position: relative;
+    font-family: helveticareqular;
+}
+p{
+    margin: 0;
+    padding: 0;
+    color: $bodyColor;
+}

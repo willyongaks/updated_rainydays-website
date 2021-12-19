@@ -1,0 +1,384 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+   <meta charset="utf-8">
+   <title>Bootstrap 5 boilarplate</title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Favicons -->
+   <link rel="apple-touch-icon" href="asset/img/favicons/apple-touch-icon.png" sizes="180x180">
+   <link rel="icon" href="asset/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+   <link rel="icon" href="asset/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+   <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+   <link rel="stylesheet" href="asset/css/fontawsome.css">
+   <link rel="stylesheet" href="asset/css/style.css">
+   <link rel="stylesheet" href="asset/css/responsive.css">
+   <!-- this is for mordanizar js link -->
+   <script src="asset/js/vendor/modernizr-3.6.0.min.js"></script>
+</head>
+
+<body>
+   <!-- start header top area  -->
+   <header id="header__top">
+      <div class="container">
+         <div class="row align-items-center">
+            <div class="col-xl-4 col-lg-3 col-md-3 col-sm-6 col-7">
+               <div class="logo__box">
+                  <a href="index.html">
+                     <!-- <img class="img-fluid" src="asset/img/logo.png" alt="Logo"> -->
+                     <h4 class="logo__dummy">Rainydays</h4>
+                  </a>
+               </div>
+            </div>
+            <div class="col-xl-8 col-lg-9 col-md-9 col-sm-6 col-5">
+               <div class="header__right__content hide__mobile">
+                  <div class="nav__box text-right">
+                     <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Contact</a></li>
+                     </ul>
+                  </div>
+                  <div class="cart__link">
+                     <a href="#">
+                        <i class="fal fa-cart-plus"></i> Cart
+                     </a>
+                  </div>
+               </div>
+               <div class="header__toggle_menu text-end">
+                  <button type="button">
+                     <i class="fal fa-bars"></i>
+                  </button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- end header top area  -->
+
+   <!-- mobile toggle menu -->
+   <div id="mobile__toggle__menu">
+      <div class="mobile__toggle__close">
+         <button type="button">
+            <i class="fal fa-times"></i>
+         </button>
+      </div>
+      <div class="mobile__menu__nav">
+         <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+         </ul>
+      </div>
+      <div class="add__cart__mobile__menu">
+         <a href="#">
+            <i class="fal fa-cart-plus"></i> View Cart
+         </a>
+      </div>
+   </div>
+   <!-- end mobile toggle menu -->
+
+   <!-- start banar content -->
+   <section id="hero__banner" style="background-image: url('./asset/img/hero-image.jpg');">
+      <div class="container">
+         <div class="row">
+            <div class="col-xl-5 col-lg-6">
+               <div class="hero__banner__content">
+                  <h6 class="tt">UNIQUE DESIGNS</h6>
+                  <h1 class="tt">PUSH THE</h1>
+                  <h1 class="tt">COMFORT ZONE</h1>
+                  <p>Unique & modern pottery made by our master in porcelain & stones</p>
+                  <a href="#">SHOP COLLECTION</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- end banar content -->
+
+   <!-- start browse by collection  -->
+   <section id="browse__by__collection">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <div class="top__title text-center">
+                  <h3 class="tt">BROWSE BY COLLECTION</h3>
+               </div>
+               <div class="main__wrapper">
+                  <div class="row">
+                     <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+                        <div class="main__item__box">
+                           <div class="image__box">
+                              <img class="img-fluid" src="asset/img/home-page-imgs/product-1.jpg" alt="">
+                           </div>
+                           <div class="content__box text-center">
+                              <h3>SUMMER</h3>
+                              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p>
+                              <a href="#">EXPLORE MORE <i class="fa fa-arrow-right"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+                        <div class="main__item__box">
+                           <div class="image__box">
+                              <img class="img-fluid" src="asset/img/home-page-imgs/product-2.jpg" alt="">
+                           </div>
+                           <div class="content__box text-center">
+                              <h3>WINTER</h3>
+                              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p>
+                              <a href="#">EXPLORE MORE <i class="fa fa-arrow-right"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+                        <div class="main__item__box">
+                           <div class="image__box">
+                              <img class="img-fluid" src="asset/img/home-page-imgs/product-3.jpg" alt="">
+                           </div>
+                           <div class="content__box text-center">
+                              <h3>ALL WEATHER</h3>
+                              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p>
+                              <a href="#">EXPLORE MORE <i class="fa fa-arrow-right"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- end browse by collection  -->
+
+   <!-- start product section area  -->
+   <section id="product__item__area">
+      <div class="container">
+         <div class="row">
+            <!-- single product -->
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+               <div class="product__item">
+                  <div class="product__image">
+                     <a href="#">
+                        <img class="img-fluid" src="asset/img/men-img/product-1.jpg" alt="">
+                     </a>
+                  </div>
+                  <div class="product__content">
+                     <div class="row align-items-center">
+                        <div class="col-xl-7 col-lg-6">
+                           <div class="product__info">
+                              <h5>PRODUCT</h5>
+                              <p>55.90 KR</p>
+                           </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-6">
+                           <div class="product__add__cart text-end">
+                              <a href="#">ADD TO CART</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- single product -->
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+               <div class="product__item">
+                  <div class="product__image">
+                     <a href="#">
+                        <img class="img-fluid" src="asset/img/men-img/product-2.jpg" alt="">
+                     </a>
+                  </div>
+                  <div class="product__content">
+                     <div class="row align-items-center">
+                        <div class="col-xl-7 col-lg-6">
+                           <div class="product__info">
+                              <h5>PRODUCT</h5>
+                              <p>55.90 KR</p>
+                           </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-6">
+                           <div class="product__add__cart text-end">
+                              <a href="#">ADD TO CART</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- single product -->
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+               <div class="product__item">
+                  <div class="product__image">
+                     <a href="#">
+                        <img class="img-fluid" src="asset/img/men-img/product-3.jpg" alt="">
+                     </a>
+                  </div>
+                  <div class="product__content">
+                     <div class="row align-items-center">
+                        <div class="col-xl-7 col-lg-6">
+                           <div class="product__info">
+                              <h5>PRODUCT</h5>
+                              <p>55.90 KR</p>
+                           </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-6">
+                           <div class="product__add__cart text-end">
+                              <a href="#">ADD TO CART</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- single product -->
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+               <div class="product__item">
+                  <div class="product__image">
+                     <a href="#">
+                        <img class="img-fluid" src="asset/img/men-img/product-3.jpg" alt="">
+                     </a>
+                  </div>
+                  <div class="product__content">
+                     <div class="row align-items-center">
+                        <div class="col-xl-7 col-lg-6">
+                           <div class="product__info">
+                              <h5>PRODUCT</h5>
+                              <p>55.90 KR</p>
+                           </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-6">
+                           <div class="product__add__cart text-end">
+                              <a href="#">ADD TO CART</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- single product -->
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+               <div class="product__item">
+                  <div class="product__image">
+                     <a href="#">
+                        <img class="img-fluid" src="asset/img/men-img/product-1.jpg" alt="">
+                     </a>
+                  </div>
+                  <div class="product__content">
+                     <div class="row align-items-center">
+                        <div class="col-xl-7 col-lg-6">
+                           <div class="product__info">
+                              <h5>PRODUCT</h5>
+                              <p>55.90 KR</p>
+                           </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-6">
+                           <div class="product__add__cart text-end">
+                              <a href="#">ADD TO CART</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- single product -->
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+               <div class="product__item">
+                  <div class="product__image">
+                     <a href="#">
+                        <img class="img-fluid" src="asset/img/men-img/product-2.jpg" alt="">
+                     </a>
+                  </div>
+                  <div class="product__content">
+                     <div class="row align-items-center">
+                        <div class="col-xl-7 col-lg-6">
+                           <div class="product__info">
+                              <h5>PRODUCT</h5>
+                              <p>55.90 KR</p>
+                           </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-6">
+                           <div class="product__add__cart text-end">
+                              <a href="#">ADD TO CART</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-12">
+               <div class="view__all__product__btn text-center">
+                  <a href="#">VEIW ALL ITEMS</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- end product section area  -->
+
+   <!-- footer top area  -->
+   <section id="footer__top">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <div class="footer__logo text-center">
+                  <a href="index.html">
+                     <img class="img-fluid" src="asset/img/logo.png" alt="">
+                  </a>
+               </div>
+            </div>
+            <div class="footer__contact">
+               <div class="row">
+                  <div class="col-xl-4 col-lg-4">
+                     <div class="contact__item text-center">
+                        <a href="#">
+                           <i class="fal fa-envelope"></i>
+                           <h4>williamongaki10@gmail.com</h4>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4">
+                     <div class="contact__item text-center">
+                        <a href="#">
+                           <i class="fal fa-map-marker-alt"></i>
+                           <h4>OSLO , NORWAY</h4>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4">
+                     <div class="contact__item text-center">
+                        <a href="#">
+                           <i class="fal fa-phone-volume"></i>
+                           <h4>+47 411 79 860</h4>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- end footer top area  -->
+
+   <!-- main footer area  -->
+   <footer id="main__footer__area">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <div class="footer__copyright text-center">
+                  <p>WILLIAMONGAKI @ 2021</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!-- end main footer area  -->
+  
+   <!-- all javascript load here -->
+   <script src="asset/js/vendor/jquery-3.3.1.min.js"></script>
+   <script src="asset/js/bootstrap.bundle.min.js"></script>
+   <script src="asset/js/custom.js"></script>
+</body>
+
+</html>

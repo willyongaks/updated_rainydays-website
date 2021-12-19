@@ -1,0 +1,283 @@
+/* XL (laptop) Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    #product__item__area .product__item .product__content .product__add__cart a {
+        padding: 10px 16px;
+    }
+}
+
+
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+    #browse__by__collection .main__wrapper .main__item__box{
+        margin-bottom: 40px;
+    }
+    #about__hero__banner .about__banner__content h1 {
+        font-size: 72px;
+    }
+    #about__page__content .about__content h3 {
+        font-size: 59px;
+    }
+    #team__member .team__member__item{
+        margin-bottom: 40px;
+    }
+}
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    #header__top .header__right__content .nav__box ul li a {
+        padding: 40px 8px;
+    }
+    #header__top .header__right__content .nav__box ul li {
+        margin-right: 10px;
+    }
+    #header__top .header__right__content .cart__link {
+        margin-left: 40px;
+    }
+    #hero__banner {
+        background-position: left;
+    }
+    #hero__banner .hero__banner__content{
+        width: 60%;
+    }
+    #browse__by__collection .main__wrapper .main__item__box .image__box img {
+        height: 350px;
+    }
+    #browse__by__collection .main__wrapper .main__item__box{
+        margin-bottom: 40px;
+    }
+    #product__item__area .product__item .product__image img {
+        height: 360px;
+    }
+    #product__item__area .product__item .product__content .product__add__cart{
+        text-align: left !important;
+        margin-top: 15px;
+    }
+    #footer__top .footer__contact .contact__item{
+        margin-bottom: 30px;
+    }
+    #about__hero__banner .about__banner__content h1{
+        font-size: 50px;
+    }
+    #about__page__content .about__content h3 {
+        font-size: 49px;
+    }
+    #team__member .team__member__item{
+        margin-bottom: 40px;
+    }
+    #about__hero__banner{
+        padding: 80px 0px;
+    }
+    .about__feater__item.about__feater__item2 .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #about__feater__area .about__feater__item{
+        width: 70%;
+        margin-bottom: 40px;
+    }
+    #about__feater__area .about__feater__item .content__box{
+        padding: 0px;
+    }
+    #about__feater__area .about__feater__item .content__box{
+        margin-top: 30px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .hide__mobile{
+        display: none !important;
+    }
+    #hero__banner {
+        background-position: left;
+    }
+    #hero__banner .hero__banner__content p{
+        width: 70%;
+    }
+    #browse__by__collection .main__wrapper .main__item__box{
+        margin-bottom: 40px;
+    }
+    .header__toggle_menu{
+        display: block;
+    }
+}
+
+/*-- Phone Landscape --*/
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    #browse__by__collection .main__wrapper .main__item__box .image__box img {
+        height: 300px;
+    }
+    #browse__by__collection .main__wrapper .main__item__box{
+        width: 100%;
+    }
+    #browse__by__collection .main__wrapper .main__item__box .content__box{
+        padding: 0px;
+    }
+    #browse__by__collection .main__wrapper .main__item__box .content__box h3 {
+        font-size: 23px;
+    }
+    #browse__by__collection .main__wrapper .main__item__box .content__box p {
+        margin-top: 10px;
+    }
+    #product__item__area .product__item .product__image img {
+        height: 360px;
+    }
+    #product__item__area .product__item .product__content .product__add__cart{
+        text-align: left !important;
+        margin-top: 15px;
+    }
+    #footer__top .footer__contact .contact__item{
+        margin-bottom: 30px;
+    }
+    #product__item__area .view__all__product__btn a {
+        width: 60%;
+    }
+    #about__hero__banner{
+        padding: 100px 0px;
+    }
+    #about__hero__banner .about__banner__content h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+    #about__page__content .about__content h3{
+        font-size: 40px;
+    }
+    #about__page__content{
+        padding: 70px 0px;
+    }
+    #about__page__content .about__content p {
+        font-size: 15px;
+    }
+    #team__member .team__member__item{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .about__feater__item.about__feater__item2 .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #about__feater__area .about__feater__item{
+        width: 90%;
+        margin-bottom: 40px;
+    }
+    #about__feater__area .about__feater__item .content__box{
+        padding: 0px;
+    }
+    #about__feater__area .about__feater__item .content__box{
+        margin-top: 30px;
+    }
+}
+
+
+/* Extra small Device. */
+@media (max-width: 575px) {
+    #hero__banner .hero__banner__content h1 {
+        font-size: 34px;
+    }
+    #hero__banner .hero__banner__content h6 {
+        font-size: 15px;
+    }
+    #hero__banner .hero__banner__content p{
+        width: 100%;
+        font-size: 16px;
+    }
+    #hero__banner .hero__banner__content a{
+        width: 100%;
+        height: 70px;
+        line-height: 70px;
+    }
+    #browse__by__collection{
+        padding: 50px 0px;
+    }
+    #browse__by__collection .top__title h3 {
+        font-size: 18px;
+    }
+    #browse__by__collection .main__wrapper .main__item__box .image__box img {
+        height: 400px;
+    }
+    #browse__by__collection .main__wrapper .main__item__box .content__box {
+        padding: 0px 0px;
+    }
+    #product__item__area{
+        padding: 50px 0px;
+    }
+    #product__item__area .product__item .product__image img {
+        height: 400px;
+    }
+    #product__item__area .product__item .product__content .product__add__cart{
+        text-align: left !important;
+        margin-top: 15px;
+    }
+    #product__item__area .product__item .product__content .product__add__cart a{
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+        height: 50px;
+        line-height: 50px;
+    }
+    #product__item__area .view__all__product__btn a{
+        width: 100%;
+        height: 70px;
+        line-height: 70px;
+    }
+    #footer__top .footer__contact .contact__item{
+        margin-bottom: 30px;
+    }
+    #mobile__toggle__menu{
+        width: 95%;
+    }
+    #mobile__toggle__menu .mobile__menu__nav{
+        padding: 50px 0px;
+    }
+    #mobile__toggle__menu .add__cart__mobile__menu a{
+        width: 90%;
+    }
+    #about__hero__banner{
+        padding: 100px 0px;
+    }
+    #about__hero__banner .about__banner__content h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    #about__page__content{
+        padding: 70px 0px;
+    }
+    #about__page__content .about__content h3{
+        font-size: 30px;
+    }
+    #about__page__content .about__content p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    #team__member .team__member__item{
+        padding: 50px 30px;
+        margin-bottom: 30px;
+    }
+    .about__feater__item.about__feater__item2 .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #about__feater__area .about__feater__item{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    #about__feater__area .about__feater__item .content__box{
+        padding: 0px;
+    }
+    #about__feater__area .about__feater__item .content__box{
+        margin-top: 30px;
+    }
+    #about__feater__area .about__feater__item .content__box h3 {
+        font-size: 25px;
+    }
+    #about__feater__area .about__feater__item .content__box p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .flexmasonry-item img{
+        width: 100%;
+    }
+}
