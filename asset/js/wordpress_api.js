@@ -1,4 +1,4 @@
-const url = "http://localhost:8888/Rainydays/wp-json/wc/store/products"
+const url = "https://willyongaks.com/Rainydays//wp-json/wc/store/products"
 const productsHtml = document.querySelector("#products")
 
 
