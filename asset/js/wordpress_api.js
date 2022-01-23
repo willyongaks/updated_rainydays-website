@@ -1,20 +1,9 @@
-const url = "http://localhost:8888/Rainydays/wp-json/wc/v3/products?consumer_key=ck_2033473ba81a504e4513c59ba2d445f0d6b2fc7c&consumer_secret=cs_24958633d825fc108cf4f3d255ce35e4b01bc3a1"
+const url = "http://localhost:8888/Rainydays/wp-json/wc/store/products"
 const productsHtml = document.querySelector("#products")
 
 
 async function getProducts() {
-    const response = await fetch(url, {
-        method: "GET",
-        withCredentials: true,
-        headers: {
-            "Access-Control-Allow-Headers": "*",
-            "Access-Control-Allow-Origin": "*",
-            "Access-Control-Allow-Credentials": "true",
-            "X-Auth-Token": "cs_0ed2af43e4a6faa53cb8436ec0ffab991a496653",
-            "Content-Type": "application/json"
-        }
-
-    });
+    const response = await fetch(url)
     const products = await response.json();
     console.log(products)
 
