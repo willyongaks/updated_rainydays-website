@@ -12,14 +12,14 @@ async function getProducts() {
                <div class="product__item">
                   <div class="product__image">
                      <a href="#">
-                        <img class="img-fluid" src="${products[0].images[0].src}" alt="">
+                        <img class="img-fluid" src="${products[i].images[0].src}" alt="">
                      </a>
                   </div>
                   <div class="product__content">
                      <div class="row align-items-center">
                         <div class="col-xl-7 col-lg-6">
                            <div class="product__info">
-                              <h5>${products[0].name}</h5>
+                              <h5>${products[i].name}</h5>
                               <p>${products[0].price} kr </p>
                            </div>
                         </div>
